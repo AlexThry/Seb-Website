@@ -8,7 +8,7 @@ function get_head_banner() {
             </video>
         </header>
     <?php else : ?>
-        <header class="h-1/3 w-screen" id="header" style="background-image: url('<?php
+        <header class="h-1/3 w-screen image-header" id="header" style="background-image: url('<?php
                                                                                     $field = get_field('header-image', get_queried_object_id());
                                                                                     if ($field) {
                                                                                         echo $field;
