@@ -9,6 +9,21 @@
 	transition: 500ms;
 }
 
+.the-content h1 {
+	font-size: 3rem/* 48px */;
+    line-height: 1;
+	font-weight: 700;
+	letter-spacing: 0;
+	margin: 2rem 0;	
+	cursor: default;
+	transition: 500ms;
+}
+
+.the-content h1:hover {
+	letter-spacing: 0.05rem;
+	transition: 500ms;
+}
+
 .the-content p {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
@@ -32,16 +47,6 @@
 	background: #eab308;
 	color: #fff;
 	box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
-}
-
-.the-content img {
-	border: 2px black solid;
-	transition: 150ms;
-}
-
-.the-content img:hover {
-	border: 2px #eab308 solid;
-	transition: 150ms;
 }
 
 .the-content .wp-block-table {
@@ -119,6 +124,17 @@
 	transition: 150ms;
 }
 
+.the-content hr {
+	text-align: center;
+	width: 20rem;
+	height: 0.25rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	background-color: #d1d5db;
+	border: 0;
+}
 
 
 
@@ -133,4 +149,8 @@
 .-translate-x-13 {
 	--tw-translate-x: -3.25rem;
 	transform: translateX(var(--tw-translate-x));
+}
+
+.max-w-60 {
+	max-width: 15rem;
 }

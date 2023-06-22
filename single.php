@@ -22,8 +22,8 @@ while (have_posts()) :
 			<div class="the-content">
 				<?php the_content(); ?>
 			</div>
-</section>
+		</section>
+	<?php endwhile; ?>
 
-<?php endwhile; ?>
-
-<?php get_footer(); ?>
+	<?php get_footer(); ?>
+	
