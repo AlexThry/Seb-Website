@@ -4,8 +4,9 @@ module.exports = {
     "./**/*.{html,js,php}"],
   theme: {
     screens: {
-      'xs': '350px',
-      'sm': '470px',
+      'xxs': '320px',
+      'xs': '470px',
+      'sm': '625px',
       'md': '768px',
       'lg': '1024px',
       'xl': '1280px',

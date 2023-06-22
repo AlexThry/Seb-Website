@@ -7,13 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo wp_title() ?></title>
     <?php wp_head() ?>
+    <script src="<?php get_theme_file_uri('/assets/js/app.js') ?>"></script>
 </head>
 
-<?php 
-$page_theme = get_field('page-theme', get_queried_object_id());
-?>
 
-<body <?php body_class($page_theme) ?>>
+<body <?php body_class() ?>>
     <?php 
     global $header_color;
     $header_color = get_field('header-button-color', get_queried_object_id());
@@ -51,7 +49,6 @@ $page_theme = get_field('page-theme', get_queried_object_id());
                 </div>
             </div>
         </nav>
-        <script src="<?php get_theme_file_uri('/assets/js/app.js') ?>"></script>
 
 
     <?php endif; ?>

@@ -12,7 +12,7 @@ while (have_posts()) :
 			<h1 class="text-5xl font-bold mb-10 cursor-default the-title">
 				<?php the_title(); ?>
 			</h1>
-			<div class="flex-col the-content ml-10 mr-10">
+			<div class="flex-col the-content">
 				<?php the_content(); ?>
 			</div>
 </section>
